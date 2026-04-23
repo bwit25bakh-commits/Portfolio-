@@ -1,0 +1,50 @@
+nav {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 6px 20px; 
+    box-shadow: 2px 2px rgb(227, 73, 73);
+}
+.logo {
+    background-color: blueviolet;
+    border-radius: 100%;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30px;
+    width: 30px;   
+}
+.menu a {
+    color:black;
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration: none;  
+    cursor: pointer;
+    transition:all .2s linear;
+}
+.menu a:hover{
+    text-decoration:underline rgb(107, 91, 91) ;
+    font-size: 23px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px
+}
+
+
+.pic {
+    height: 500px;
+    width: 200px;
+    float: right;
+    margin: 20px;
+}
+
+.pic img {
+    width: 200px;
+    border-radius: 10px;
+}
