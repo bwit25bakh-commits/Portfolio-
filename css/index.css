@@ -40,11 +40,19 @@ body{
 .pic {
     height: 500px;
     width: 200px;
-    float: right;
+    float: left;
     margin: 20px;
 }
 
+
 .pic img {
     width: 200px;
-    border-radius: 10px;
+    border-radius: 5%;
+}
+.intro {
+    max-width: 500px;
+}
+.profile {
+    display: flex;
+    padding: 10px;
 }
