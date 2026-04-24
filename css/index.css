@@ -24,7 +24,6 @@ nav {
     padding: 10px 15px;
     margin-left: 10px;
     font-weight: bold;
-    text-decoration: none;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -47,7 +46,7 @@ body {
 .profile {
     display: flex;
     padding: 10px;
-    gap: 20px;
+    gap: 10px;
 }
 
 .pic {
@@ -64,7 +63,6 @@ body {
     max-width: 500px;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
     body {
         background-color: yellow;
