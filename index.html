@@ -5,50 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/menu.css">
 </head>
 <body>
 
-    <nav>
-        <div class="logo">DS</div>
-        <div class="menu">
-            <a href="index.html">Home</a>
-            <a href="./html/About.html">About</a>
-            <a href="./html/Contact.html">Contact</a>
-            <a href="./html/Education.html">Education</a>
-            <a href="./html/Service.html">Service</a>
+<nav>
+    <div class="logo">DS</div>
+
+    <div class="menu" id="menu">
+        <a href="index.html">Home</a>
+        <a href="./html/About.html">About</a>
+        <a href="./html/Contact.html">Contact</a>
+        <a href="./html/Education.html">Education</a>
+        <a href="./html/Service.html">Service</a>
+    </div>
+
+    <div class="menu_icon" id="menuIcon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path stroke-dasharray="16" d="M5 5h14"/>
+                <path stroke-dasharray="12" d="M5 12h9"/>
+                <path stroke-dasharray="16" d="M5 19h14"/>
+            </g>
+        </svg>
+    </div>
+</nav>
+
+<div class="banner_main">
+    <div class="banner_data">
+        <h1>Hello, I'm DS</h1>
+        <div>Creating unique digital experiences</div>
+        <div>
+            I'm a passionate web developer with a knack for crafting engaging 
+            and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript.
         </div>
 
-        <div class ="menu_icon">
-            <svg xmlns="http://www.w3.org/2000/svg" 
-            width="24" height="24" 
-            viewBox="0 0 24 24"><g fill="none" 
-            stroke="currentColor" stroke-linecap="round" 
-            stroke-linejoin="round" stroke-width="2"><path 
-            troke-dasharray="16" d="M5 5h14"><animate fill="freeze" 
-            attributeName="stroke-dashoffset" dur="0.3s" 
-            values="16;0"/></path><path 
-            stroke-dasharray="12" stroke-dashoffset="12" 
-            d="M5 12h9"><animate fill="freeze" attributeName="stroke-dashoffset" 
-            begin="0.3s" dur="0.2s" to="0"/></path><path stroke-dasharray="16" 
-            stroke-dashoffset="16" d="M5 19h14"><animate fill="freeze" 
-            attributeName="stroke-dashoffset" begin="0.5s" dur="0.3s" to="0"/></path><path stroke-dasharray="12" stroke-dashoffset="12" d="M17 9l3 3l-3 3"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.8s" dur="0.2s" to="0"/></path></g></svg>
+        <div class="banner_buttons">
+            <button>Contact Me</button>
+            <button>Hire</button>
         </div>
-    </nav>
+    </div>
 
-    <section class="profile">
-        <div class="pic">
-            <img src="./resource/me.JPG" alt="Profile picture of DS">
-        </div>
-
-        <div class="intro">
-            <h1>Hello, I'm DS 👋</h1>
-            <p>
-                Welcome to my personal website. I’m passionate about web development,
-                learning new technologies, and building creative projects.
-            </p>
-        </div>
-    </section>
+    <div class="banner">
+        <img src="./resource/me.JPG" alt="Profile picture">
+    </div>
+</div>
 
 </body>
 </html>
